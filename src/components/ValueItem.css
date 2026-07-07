@@ -1,0 +1,25 @@
+.value-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: var(--spacing-3);
+  transition: transform var(--transition-normal);
+}
+
+.value-item:hover {
+  transform: translateY(-5px);
+}
+
+.value-icon {
+  color: var(--color-accent-light);
+  margin-bottom: var(--spacing-2);
+}
+
+.value-title {
+  color: var(--color-bg);
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 1.125rem;
+  margin-bottom: 0;
+}
