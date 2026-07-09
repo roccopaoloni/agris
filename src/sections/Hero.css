@@ -40,15 +40,15 @@
   color: var(--color-bg);
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 3rem;
-  margin-bottom: var(--spacing-1);
+  font-size: 3.5rem;
+  margin-bottom: var(--spacing-3);
 }
 
 .hero-subtitle {
   color: var(--color-accent-light);
   font-size: 2rem;
   font-family: var(--font-body);
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: var(--spacing-4);
 }
 

@@ -30,7 +30,7 @@ const About = () => {
         <div className="about-grid">
           <div className="about-image-wrapper fade-in" ref={ref}>
             <img 
-              src="https://images.unsplash.com/photo-1595804368541-10492e85a666?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+              src="/Ingeniero en el campo.jpeg" 
               alt="Ingeniero en el campo" 
               className="about-img"
             />
