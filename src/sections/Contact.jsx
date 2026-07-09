@@ -2,7 +2,15 @@ import React, { useEffect, useRef } from 'react';
 import './Contact.css';
 import SectionTitle from '../components/SectionTitle';
 import Button from '../components/Button';
-import { Mail, MapPin, Clock } from 'lucide-react';
+import { Mail, MapPin, ExternalLink } from 'lucide-react';
+
+const LinkedinIcon = ({ size = 24, color = "currentColor" }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+    <rect x="2" y="9" width="4" height="12"></rect>
+    <circle cx="4" cy="4" r="2"></circle>
+  </svg>
+);
 
 const Contact = () => {
   const ref = useRef(null);
@@ -48,21 +56,25 @@ const Contact = () => {
 
             <div className="contact-item">
               <div className="contact-icon-wrapper">
-                <MapPin size={24} />
+                <LinkedinIcon size={24} />
               </div>
               <div>
-                <h5>Ubicación Base</h5>
-                <p>Bahía Blanca, Buenos Aires, Argentina</p>
+                <h5>LinkedIn</h5>
+                <p>
+                  <a href="https://www.linkedin.com/in/pablo-paoloni-0231538/" target="_blank" rel="noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', color: 'var(--color-primary)', fontWeight: '500', textDecoration: 'underline' }}>
+                    Pablo Paoloni <ExternalLink size={14} />
+                  </a>
+                </p>
               </div>
             </div>
 
             <div className="contact-item">
               <div className="contact-icon-wrapper">
-                <Clock size={24} />
+                <MapPin size={24} />
               </div>
               <div>
-                <h5>Horario de Atención</h5>
-                <p>Lunes a Viernes de 8:00 a 18:00 hs</p>
+                <h5>Ubicación Base</h5>
+                <p>Bahía Blanca, Buenos Aires, Argentina</p>
               </div>
             </div>
           </div>
