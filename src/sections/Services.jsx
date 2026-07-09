@@ -6,7 +6,7 @@ import {
   BarChart3, 
   Tractor, 
   Beef, 
-  LineChart, 
+  Leaf, 
   ClipboardCheck, 
   Users 
 } from 'lucide-react';
@@ -33,9 +33,9 @@ const services = [
     description: 'Elaboración de presupuestos financieros y económicos para cada campaña, con control de desvíos.'
   },
   {
-    icon: LineChart,
-    title: 'Evaluación Económica',
-    description: 'Análisis de rentabilidad por cultivo y por establecimiento. Reportes periódicos para el propietario.'
+    icon: Leaf,
+    title: 'Agricultura Regenerativa',
+    description: 'Implementación de prácticas que restauran la salud del suelo y aumentan la biodiversidad, mejorando la rentabilidad a largo plazo.'
   },
   {
     icon: Users,

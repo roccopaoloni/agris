@@ -56,9 +56,8 @@ const About = () => {
             
             <ul className="about-list">
               <li><strong>Ing. Agrónomo:</strong> Pablo Paoloni</li>
-              <li><strong>Universidad:</strong> Universidad Nacional del Sur</li>
-              <li><strong>Matrícula:</strong> CPIA N° 00000</li>
-              <li><strong>Especialización:</strong> Administración Rural y Agronegocios</li>
+              <li><strong>Posgrado:</strong> Magíster</li>
+              <li><strong>Enfoque:</strong> Producción sustentable</li>
             </ul>
           </div>
         </div>
